@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* 立案和结案页面的css */
+body{
+	background-image:url('../images/bg.jpg');
+	background-repeat:repeat-x;
+	/* font-family:"Times New Roman", Times, serif; */
+}
+input {
+	height: 18px;
+	border-radius: 4px;  /* 设置圆角边框 */
+	outline: none;
+	border: 1px solid gray;
+}
+
+button {
+	background-color: #87CEEB;
+	border: none;
+	color: white;
+	padding: 5px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.3s;
+	cursor: pointer;
+}
+
+a:link {
+	text-decoration: none;
+}
+table{
+	border:1px;
+	border-style:dashed;
+	border-color:blue;
+	width:1000px;
+}
+td{
+	border:solid #ccc 0px;
+}
+textarea{
+	width:550px;
+	heigth:100px;
+	border-radius: 4px;  /* 设置圆角边框 */
+	resize: none;  /* 禁止拖动 */
+}

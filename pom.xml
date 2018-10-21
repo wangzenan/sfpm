@@ -1,0 +1,99 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>nju.software</groupId>  <!-- 公司名称 -->
+	<artifactId>auction</artifactId> <!-- 项目名称 -->
+	<packaging>war</packaging>  <!-- 指定打包方式 -->
+	<version>0.0.1-SNAPSHOT</version>  <!-- 指定项目版本号 -->
+	<name>auction Maven Webapp</name>  <!-- 指定项目名 -->
+	<url>http://maven.apache.org</url>  <!-- 开发团队的网站 -->
+	<description></description>  <!-- project的描述 -->
+	<inceptionYear></inceptionYear>  <!-- 工程的初始时间 -->
+	<licenses></licenses>  <!--列出本工程直接的licenses，而不要列出dependencies的licenses -->
+
+	<properties>
+		<spring.version>5.0.7.RELEASE</spring.version>
+		<hibernate.version>5.3.3.Final</hibernate.version>
+		<mysql.driver.version>8.0.11</mysql.driver.version>
+		<junit.version>3.8.1</junit.version>
+		<log4j.version>1.2.14</log4j.version>
+		<servlet.jstl.version>1.2</servlet.jstl.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- 配置 spring MVC -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<!-- 配置hibernate -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-agroal</artifactId>
+			<version>${hibernate.version}</version>
+			<type>pom</type>
+		</dependency>
+		<!-- 配置Mysql -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>${mysql.driver.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>${log4j.version}</version>
+		</dependency>
+		<!-- servlet -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>${servlet.jstl.version}</version>
+		</dependency>
+		<!--json-->
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>2.9.6</version>
+		</dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>2.9.6</version>
+        </dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.9.6</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.47</version>
+		</dependency>
+
+
+
+
+
+	</dependencies>
+	<build>
+		<finalName>auction</finalName>
+	</build>
+</project>

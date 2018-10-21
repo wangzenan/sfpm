@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="nju.software.data.dataobject.PubLcspb" table="pub_lcspb" schema="auction2">
+        <id name="spbh" column="SPBH"/>
+        <property name="fybh" column="FYBH"/>
+        <property name="splx" column="SPLX"/>
+        <property name="sqbh" column="SQBH"/>
+        <property name="spkssj" column="SPKSSJ"/>
+        <property name="sprbh" column="SPRBH"/>
+        <property name="spr" column="SPR"/>
+        <property name="sprlx" column="SPRLX"/>
+        <property name="spjg" column="SPJG"/>
+        <property name="jdbh" column="JDBH"/>
+        <property name="sfspjs" column="SFSPJS"/>
+        <property name="spjssj" column="SPJSSJ"/>
+        <property name="lctxbh" column="LCTXBH"/>
+        <property name="spyj" column="SPYJ"/>
+        <property name="ajxh" column="AJXH"/>
+    </class>
+</hibernate-mapping>

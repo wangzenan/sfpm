@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="nju.software.data.dataobject.PubSlSxzd" table="pub_sl_sxzd" schema="auction2">
+        <!--<composite-id mapped="true" class="nju.software.data.dataobject.PubSlSxzdPK">
+            <key-property name="ajxh" column="AJXH"/>
+            <key-property name="zdbh" column="ZDBH"/>
+        </composite-id>-->
+        <composite-id >
+            <key-property name="ajxh" column="AJXH"/>
+            <key-property name="zdbh" column="ZDBH"/>
+        </composite-id>
+        <!--<composite-id name="pubSlSxzdPK" class="nju.software.data.dataobject.PubSlSxzdPK">
+            <key-property name="ajxh" column="AJXH"/>
+            <key-property name="zdbh" column="ZDBH"/>
+        </composite-id>-->
+        <property name="zdyy" column="ZDYY"/>
+        <property name="sqr" column="SQR"/>
+        <property name="zdrq" column="ZDRQ"/>
+        <property name="zdcljg" column="ZDCLJG"/>
+        <property name="hfrq" column="HFRQ"/>
+        <property name="bz" column="BZ"/>
+        <property name="czr" column="CZR"/>
+        <property name="zdsqrq" column="ZDSQRQ"/>
+        <property name="hfsqrq" column="HFSQRQ"/>
+        <property name="hfyy" column="HFYY"/>
+    </class>
+</hibernate-mapping>

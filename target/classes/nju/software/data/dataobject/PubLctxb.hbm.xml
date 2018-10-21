@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="nju.software.data.dataobject.PubLctxb" table="pub_lctxb" schema="auction2">
+        <id name="lctxbh" column="LCTXBH"/>
+        <property name="lcdmbh" column="LCDMBH"/>
+        <property name="ajxh" column="AJXH"/>
+        <property name="bh" column="BH"/>
+        <property name="lctxnr" column="LCTXNR"/>
+        <property name="bmbh" column="BMBH"/>
+        <property name="sjjs" column="SJJS"/>
+        <property name="sjyh" column="SJYH"/>
+        <property name="sfcl" column="SFCL"/>
+        <property name="sqrq" column="SQRQ"/>
+        <property name="clr" column="CLR"/>
+        <property name="sqr" column="SQR"/>
+        <property name="clsj" column="CLSJ"/>
+        <property name="bztx" column="BZTX"/>
+    </class>
+</hibernate-mapping>

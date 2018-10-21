@@ -1,0 +1,139 @@
+/* 主页面的CSS */
+body{
+padding:0px;
+margin:0px;
+font-size:12px;
+}
+body a{
+color:#03515d;
+text-decoration:none;
+}
+body button{
+/* color:#03515d; */
+
+}
+/* 搜索按钮样式 */
+#search{
+	background:none;
+	outline:none;
+}
+body span{
+color:#03515d;
+}
+.center_bottom input{
+color:#03515d;
+font-size:12px;
+height:20px;
+width:40px;
+padding:2px;
+vertical-align:middle;
+text-align:center;
+margin-bottom:6px;
+}
+.maintop{height:47px; position:absolute; top:0; background:url(../images/loginbg1.png) repeat-x;z-index:100; width:100%;}
+.maintop span{color:#fff; line-height:47px;  no-repeat:21px 18px; text-indent:44px; color:#afc5d2; float:left;}
+/**************************���ֲ���********************/
+.table_div{
+width:1300px;
+padding:10px;
+margin:37px auto;
+}
+.div_clear{
+clear:both;
+}
+.left_top{
+background:url("../sfpmImages/line.gif");
+height:30px;
+width:5px;
+float:left;
+}
+.left_center{
+background:url("../sfpmImages/line.gif");
+height:500px;
+width:5px;
+float:left;
+}
+.left_bottom{
+background:url("../sfpmImages/line.gif");
+height:35px;
+width:5px;
+float:left;
+}
+
+
+.center_top{
+background:url("../sfpmImages/center_top.gif") repeat-x;
+height:30px;
+line-height:30px;
+width:1280px;
+	/*width:95%;*/
+float:left;
+}
+.center_center{
+height:500px;
+width:1280px;
+float:left;
+}
+.center_bottom{
+background:url("../sfpmImages/center_bottom.gif") repeat-x;
+height:35px;
+width:1280px;
+float:left;
+line-height:35px;
+}
+.right_top{
+background:url("../sfpmImages/line.gif");
+height:30px;
+width:5px;
+float:left;
+}
+.right_center{
+background:url("../sfpmImages/line.gif");
+height:500px;
+width:5px;
+float:left;
+}
+.right_bottom{
+background:url("../sfpmImages/line.gif");
+height:35px;
+width:5px;
+float:left;
+}
+/**************************************�������***********************************/
+.table_content{
+margin:5px;
+border:1px solid #B5D6E6;
+/* width:1270px; */
+width:1270px;
+height:490px;
+overflow-x:scroll;
+overflow-y:auto;
+}
+
+
+.table_content table{
+/*width:100%;*/
+width:3000px;
+border:0;
+border-collapse:collapse;
+font-size:12px;
+}
+.table_content table tr:hover{
+background-color:#C1EBFF;
+}
+.table_content table th{
+border-collapse:collapse;
+height:22px;
+background:url("../sfpmImages/tableHead.gif");
+border-right:1px solid #B5D6E6;
+border-bottom:1px solid #B5D6E6;
+}
+.table_content table td{
+height:22px;
+word-wrap:break-word;
+max-width:200px;
+text-align:center;
+vertical-align:middle;
+border-right:1px solid #B5D6E6;
+border-bottom:1px solid #B5D6E6;
+}

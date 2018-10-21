@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="nju.software.data.dataobject.Auction" table="sfjd_dwwt">
+        <id name="XLH" column="XLH">
+            <generator class="identity" />
+        </id>
+
+        <property name="AY" column="AY"/>
+        <property name="WTH" column="WTH"/>
+        <property name="YISONGBUMEN" column="YISONGBUMEN"/>
+        <property name="YSR" column="YSR"/>
+        <property name="PHONE" column="PHONE"/>
+        <property name="YSAJXGAJH" column="YSAJXGAJH"/>
+        <property name="HYTHYRQ" column="HYTHYRQ"/>
+        <property name="AJMC" column="AJMC"/>
+        <property name="SQFDSRMC" column="SQFDSRMC"/>
+        <property name="SQFDSRLXR" column="SQFDSRLXR"/>
+        <property name="LYFDSRMC" column="LYFDSRMC"/>
+        <property name="LYFDSRLXR" column="LYFDSRLXR"/>
+        <property name="AQZY" column="AQZY"/>
+        <property name="SJCL" column="SJCL"/>
+        <property name="WTSX" column="WTSX"/>
+        <property name="SABD" column="SABD"/>
+        <property name="JDJZR" column="JDJZR"/>
+        <property name="YSRQ" column="YSRQ"/>
+        <property name="DWWTBZ" column="DWWTBZ"/>
+        <property name="JBR" column="JBR"/>
+        <property name="JBRQ" column="JBRQ"/>
+        <property name="XBR" column="XBR"/>
+        <property name="HYZCY" column="HYZCY"/>
+        <property name="LASPR" column="LASPR"/>
+        <property name="AJXZ" column="AJXZ"/>
+        <property name="SFCX" column="SFCX"/>
+        <property name="CJJ" column="CJJ"/>
+        <property name="PGPMJZ" column="PGPMJZ"/>
+        <property name="JDHPMJG" column="JDHPMJG"/>
+        <property name="JARQ" column="JARQ"/>
+        <property name="TSCX" column="TSCX"/>
+        <property name="FWTD" column="FWTD"/>
+        <property name="WGZY" column="WGZY"/>
+        <property name="WGZYGHJG" column="WGZYGHJG"/>
+        <property name="WTSXBZ" column="WTSXBZ"/>
+        <property name="SFLA" column="SFLA"/>
+        <property name="SFJA" column="SFJA"/>
+
+    </class>
+</hibernate-mapping>
